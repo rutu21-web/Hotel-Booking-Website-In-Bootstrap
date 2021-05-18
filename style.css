@@ -1,0 +1,123 @@
+html {
+	scroll-behaviour: smooth;
+}
+
+body {
+	font-family: 'Ubuntu', sans-seriff;
+}
+
+.navbar {
+	padding: 25px 0!important;
+	font-size: 20px;
+}
+
+.navbar .navbar-brand{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.top-nav-collapse {
+	background-color: black;
+	padding: 0.75rem !important;
+}
+
+.btn {
+	border-radius: 50px;
+}
+
+
+
+.landing-div{
+	background: white url("pexels-julius-silver-753626.jpg") no-repeat scroll center;
+    height: 100vh;
+	background-size: cover;
+}  
+
+
+
+.landing-wrapper {
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+}
+
+.tour-image{
+	border-radius: 10px;
+	box-shadow: 0 15px 15px black;
+}
+
+
+.dest-card {
+	border-radius: 10px !important;
+	color: white;
+	cursor: pointer;
+}
+
+.dest-card-img{
+	border-radius: 10px !important;
+	position: relative;
+}
+
+.dest-card-title{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.dest-card-info h4{
+	margin-bottom: 0;
+}
+
+.dest-card-info{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	background-color: coral;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 0 50px 50px 0;
+	width: 45%;
+	transition: all 0.5s;
+	text-align: right;
+}
+
+.dest-card:hover .dest-card-info{
+	width: 60%;
+	background-color: orangered;
+}
+
+.location-card{
+	box-shadow: 0 10px 10px black;
+	border-radius: 10px;
+	transition: all 0.5s;
+}
+
+
+.location-img{
+	position: relative;
+}
+
+.location-price{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: limegreen;
+	padding: 10px 15px;
+	color: white;
+	border-radius: 10px;
+}
+
+.main-footer{
+	background: white url("pexels-maria-salazar-879010.jpg") no-repeat scroll center;
+    background-size: cover;
+	color: white;
+}
+
+.footer-wrapper{
+	background-color: rgba(0,0,0,0.7);
+	height: 100%;
+	
+}
+
+.location-card:hover{
+	transform: scale(1.09,1.08);
+}
